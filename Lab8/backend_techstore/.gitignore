@@ -1,0 +1,52 @@
+
+# ==============================
+# Entornos virtuales de Python
+# ==============================
+venv/
+.venv/
+env/
+
+# ==============================
+# Caché y archivos compilados
+# ==============================
+__pycache__/
+*.py[cod]
+*$py.class
+
+# ==============================
+# Variables de entorno y secretos
+# ==============================
+.env
+.env.*
+!.env.example
+
+# ==============================
+# Bases de datos locales
+# ==============================
+# Ignorar otras bases de datos, pero conservar la de demostración
+/techstore.db
+
+# ==============================
+# Logs
+# ==============================
+*.log
+logs/
+
+# ==============================
+# Pruebas y cobertura
+# ==============================
+.pytest_cache/
+.coverage
+htmlcov/
+
+# ==============================
+# Editores
+# ==============================
+.vscode/
+.idea/
+
+# ==============================
+# Sistema operativo
+# ==============================
+.DS_Store
+Thumbs.db
